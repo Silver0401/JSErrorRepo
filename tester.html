@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tester thingy</title>
+
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+	
+</head>
+<body>
+
+	<h1>JS speech recognition bug example</h1>
+	<p>When the present code is up and running, the speech recognition web APi, listens and awaits for any sound, once it detects a recognizable word, it logs it in the console. This works on almost every popular browser: chrome, safari and firefox. However chromium seems to make it work parcially, but not fully. The problem seems to be especifically in electron, which is odd since I've benn using this APi for a while now, and suddenly it just stoped working. You can try it yourself, here's the most basic code for the speech recognition APi; please run it in electron, and every other browser, if you come up with any reason as to why it could not be working on electron, any debug, comments, question, etc. I would appreciate any type of help. </p>
+
+	<p>btw, as soon as you start the tester.html file, the code is already running, just take a look at the console to see it not working on electron. (however if you open the html file in a browser you should see it working swiftly.)</p>
+
+	<script src="tester.js"></script>
+
+</body>
+</html>
